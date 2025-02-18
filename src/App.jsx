@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import Login from "./components/Login";
 
 const App = () => {
-  const Url = "http://localhost:4000";
+  const Url = "https://food-deliver-app-be.onrender.com";
   const [token, setToken] = useState(null); // Initially, set as null for better handling
 
   useEffect(() => {
